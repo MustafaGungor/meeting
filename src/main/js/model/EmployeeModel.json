@@ -1,0 +1,53 @@
+{
+  "name": "EmployeeModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "number",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Kayýt Tarihi",
+      "type": "string",
+      "name": "insertDttm",
+      "tooltip": "insertDttm"
+    },
+    {
+      "label": "Son Kayýt Tarihi",
+      "type": "string",
+      "name": "versionDttm",
+      "tooltip": "versionDttm"
+    },
+   {
+      "label": "Son Kayýt Tarihi",
+      "type": "string",
+      "name": " deleted",
+      "tooltip":"deleted"
+    },
+    {
+      "label": "Adý",
+      "type": "string",
+      "name": "name",
+      "tooltip": "Adý",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Soyadý",
+      "type": "string",
+      "name": "surname",
+      "tooltip": "Soyadý",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Department",
+      "type": "string",
+      "name": "department",
+      "tooltip": "Department",
+      "sort": ""
+    }
+  ]
+}
