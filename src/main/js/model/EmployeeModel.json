@@ -1,0 +1,47 @@
+{
+  "name": "EmployeeModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "number",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Kayıt Tarihi",
+      "type": "string",
+      "name": "insertDttm",
+      "tooltip": "insertDttm"
+    },
+    {
+      "label": "Son Kayıt Tarihi",
+      "type": "string",
+      "name": "versionDttm",
+      "tooltip": "versionDttm"
+    },
+    {
+      "label": "Adı",
+      "type": "string",
+      "name": "name",
+      "tooltip": "Adı",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Soyadı",
+      "type": "string",
+      "name": "surname",
+      "tooltip": "Soyadı",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Department",
+      "type": "string",
+      "name": "department",
+      "tooltip": "Department",
+      "sort": ""
+    }
+  ]
+}

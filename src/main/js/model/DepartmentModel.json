@@ -1,0 +1,53 @@
+{
+  "name": "DepartmentModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "number",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Kayıt Tarihi",
+      "type": "string",
+      "name": "insertDttm",
+      "tooltip": "insertDttm"
+    },
+    {
+      "label": "Son Kayıt Tarihi",
+      "type": "string",
+      "name": "versionDttm",
+      "tooltip": "versionDttm"
+    },
+    {
+      "label": "Department Adı",
+      "type": "string",
+      "name": "name",
+      "tooltip": "name",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Desc",
+      "type": "string",
+      "name": "dsc",
+      "tooltip": "dsc",
+      "sort": ""
+    },
+    {
+      "label": "Employee",
+      "type": "select",
+      "name": "employeeList",
+      "tooltip": "employeeList",
+      "sort": ""
+    },
+    {
+      "label": "Meetings",
+      "type": "select",
+      "name": "meetingList",
+      "tooltip": "meetingList",
+      "sort": ""
+    }
+  ]
+}
